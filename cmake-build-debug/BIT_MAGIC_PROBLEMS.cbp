@@ -111,6 +111,90 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="gfg3">
+				<Option output="F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/gfg3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 gfg3"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gfg3/fast">
+				<Option output="F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/gfg3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 gfg3/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gfg4">
+				<Option output="F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/gfg4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 gfg4"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gfg4/fast">
+				<Option output="F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/gfg4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 gfg4/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug"/>
 				<Option type="4"/>
@@ -127,6 +211,12 @@
 		</Unit>
 		<Unit filename="F:/dsa/CLION/BIT MAGIC PROBLEMS/GFG/kthbitisset.cpp">
 			<Option target="gfg1"/>
+		</Unit>
+		<Unit filename="F:/dsa/CLION/BIT MAGIC PROBLEMS/GFG/kthbitsetcheck.cpp">
+			<Option target="gfg3"/>
+		</Unit>
+		<Unit filename="F:/dsa/CLION/BIT MAGIC PROBLEMS/GFG/noofsetbits.cpp">
+			<Option target="gfg4"/>
 		</Unit>
 		<Unit filename="F:/dsa/CLION/BIT MAGIC PROBLEMS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

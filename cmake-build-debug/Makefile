@@ -155,6 +155,32 @@ gfg2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg2.dir\build.make CMakeFiles/gfg2.dir/build
 .PHONY : gfg2/fast
 
+#=============================================================================
+# Target rules for targets named gfg3
+
+# Build rule for target.
+gfg3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gfg3
+.PHONY : gfg3
+
+# fast build rule for target.
+gfg3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg3.dir\build.make CMakeFiles/gfg3.dir/build
+.PHONY : gfg3/fast
+
+#=============================================================================
+# Target rules for targets named gfg4
+
+# Build rule for target.
+gfg4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gfg4
+.PHONY : gfg4
+
+# fast build rule for target.
+gfg4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg4.dir\build.make CMakeFiles/gfg4.dir/build
+.PHONY : gfg4/fast
+
 GFG/findfirstset.obj: GFG/findfirstset.cpp.obj
 
 .PHONY : GFG/findfirstset.obj
@@ -209,6 +235,60 @@ GFG/kthbitisset.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg1.dir\build.make CMakeFiles/gfg1.dir/GFG/kthbitisset.cpp.s
 .PHONY : GFG/kthbitisset.cpp.s
 
+GFG/kthbitsetcheck.obj: GFG/kthbitsetcheck.cpp.obj
+
+.PHONY : GFG/kthbitsetcheck.obj
+
+# target to build an object file
+GFG/kthbitsetcheck.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg3.dir\build.make CMakeFiles/gfg3.dir/GFG/kthbitsetcheck.cpp.obj
+.PHONY : GFG/kthbitsetcheck.cpp.obj
+
+GFG/kthbitsetcheck.i: GFG/kthbitsetcheck.cpp.i
+
+.PHONY : GFG/kthbitsetcheck.i
+
+# target to preprocess a source file
+GFG/kthbitsetcheck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg3.dir\build.make CMakeFiles/gfg3.dir/GFG/kthbitsetcheck.cpp.i
+.PHONY : GFG/kthbitsetcheck.cpp.i
+
+GFG/kthbitsetcheck.s: GFG/kthbitsetcheck.cpp.s
+
+.PHONY : GFG/kthbitsetcheck.s
+
+# target to generate assembly for a file
+GFG/kthbitsetcheck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg3.dir\build.make CMakeFiles/gfg3.dir/GFG/kthbitsetcheck.cpp.s
+.PHONY : GFG/kthbitsetcheck.cpp.s
+
+GFG/noofsetbits.obj: GFG/noofsetbits.cpp.obj
+
+.PHONY : GFG/noofsetbits.obj
+
+# target to build an object file
+GFG/noofsetbits.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg4.dir\build.make CMakeFiles/gfg4.dir/GFG/noofsetbits.cpp.obj
+.PHONY : GFG/noofsetbits.cpp.obj
+
+GFG/noofsetbits.i: GFG/noofsetbits.cpp.i
+
+.PHONY : GFG/noofsetbits.i
+
+# target to preprocess a source file
+GFG/noofsetbits.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg4.dir\build.make CMakeFiles/gfg4.dir/GFG/noofsetbits.cpp.i
+.PHONY : GFG/noofsetbits.cpp.i
+
+GFG/noofsetbits.s: GFG/noofsetbits.cpp.s
+
+.PHONY : GFG/noofsetbits.s
+
+# target to generate assembly for a file
+GFG/noofsetbits.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg4.dir\build.make CMakeFiles/gfg4.dir/GFG/noofsetbits.cpp.s
+.PHONY : GFG/noofsetbits.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -219,12 +299,20 @@ help:
 	@echo ... rebuild_cache
 	@echo ... gfg1
 	@echo ... gfg2
+	@echo ... gfg3
+	@echo ... gfg4
 	@echo ... GFG/findfirstset.obj
 	@echo ... GFG/findfirstset.i
 	@echo ... GFG/findfirstset.s
 	@echo ... GFG/kthbitisset.obj
 	@echo ... GFG/kthbitisset.i
 	@echo ... GFG/kthbitisset.s
+	@echo ... GFG/kthbitsetcheck.obj
+	@echo ... GFG/kthbitsetcheck.i
+	@echo ... GFG/kthbitsetcheck.s
+	@echo ... GFG/noofsetbits.obj
+	@echo ... GFG/noofsetbits.i
+	@echo ... GFG/noofsetbits.s
 .PHONY : help
 
 
