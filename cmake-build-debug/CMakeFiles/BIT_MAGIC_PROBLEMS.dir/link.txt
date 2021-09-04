@@ -1,0 +1,3 @@
+"D:\Softwares\CLion 2020.2.1\Clion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\BIT_MAGIC_PROBLEMS.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\BIT_MAGIC_PROBLEMS.dir/objects.a @CMakeFiles\BIT_MAGIC_PROBLEMS.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\BIT_MAGIC_PROBLEMS.dir/objects.a -Wl,--no-whole-archive  -o BIT_MAGIC_PROBLEMS.exe -Wl,--out-implib,libBIT_MAGIC_PROBLEMS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BIT_MAGIC_PROBLEMS.dir\linklibs.rsp
