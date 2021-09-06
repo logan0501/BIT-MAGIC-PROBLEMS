@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/dsa/CLION/BIT MAGIC PROBLEMS/GFG/bitdifference.cpp
+iostream
+F:/dsa/CLION/BIT MAGIC PROBLEMS/GFG/iostream
+

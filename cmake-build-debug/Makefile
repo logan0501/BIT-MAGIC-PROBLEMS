@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = "F:\dsa\CLION\BIT MAGIC PROBLEMS\cmake-build-debug"
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Softwares\CLion 2020.2.1\Clion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\Softwares\CLion 2020.2.1\Clion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -181,6 +181,72 @@ gfg4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg4.dir\build.make CMakeFiles/gfg4.dir/build
 .PHONY : gfg4/fast
 
+#=============================================================================
+# Target rules for targets named gfg5
+
+# Build rule for target.
+gfg5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gfg5
+.PHONY : gfg5
+
+# fast build rule for target.
+gfg5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg5.dir\build.make CMakeFiles/gfg5.dir/build
+.PHONY : gfg5/fast
+
+#=============================================================================
+# Target rules for targets named gfg6
+
+# Build rule for target.
+gfg6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gfg6
+.PHONY : gfg6
+
+# fast build rule for target.
+gfg6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/build
+.PHONY : gfg6/fast
+
+#=============================================================================
+# Target rules for targets named gfg7
+
+# Build rule for target.
+gfg7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gfg7
+.PHONY : gfg7
+
+# fast build rule for target.
+gfg7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/build
+.PHONY : gfg7/fast
+
+GFG/bitdifference.obj: GFG/bitdifference.cpp.obj
+
+.PHONY : GFG/bitdifference.obj
+
+# target to build an object file
+GFG/bitdifference.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg5.dir\build.make CMakeFiles/gfg5.dir/GFG/bitdifference.cpp.obj
+.PHONY : GFG/bitdifference.cpp.obj
+
+GFG/bitdifference.i: GFG/bitdifference.cpp.i
+
+.PHONY : GFG/bitdifference.i
+
+# target to preprocess a source file
+GFG/bitdifference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg5.dir\build.make CMakeFiles/gfg5.dir/GFG/bitdifference.cpp.i
+.PHONY : GFG/bitdifference.cpp.i
+
+GFG/bitdifference.s: GFG/bitdifference.cpp.s
+
+.PHONY : GFG/bitdifference.s
+
+# target to generate assembly for a file
+GFG/bitdifference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg5.dir\build.make CMakeFiles/gfg5.dir/GFG/bitdifference.cpp.s
+.PHONY : GFG/bitdifference.cpp.s
+
 GFG/findfirstset.obj: GFG/findfirstset.cpp.obj
 
 .PHONY : GFG/findfirstset.obj
@@ -262,6 +328,33 @@ GFG/kthbitsetcheck.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg3.dir\build.make CMakeFiles/gfg3.dir/GFG/kthbitsetcheck.cpp.s
 .PHONY : GFG/kthbitsetcheck.cpp.s
 
+GFG/longestconsecones.obj: GFG/longestconsecones.cpp.obj
+
+.PHONY : GFG/longestconsecones.obj
+
+# target to build an object file
+GFG/longestconsecones.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/GFG/longestconsecones.cpp.obj
+.PHONY : GFG/longestconsecones.cpp.obj
+
+GFG/longestconsecones.i: GFG/longestconsecones.cpp.i
+
+.PHONY : GFG/longestconsecones.i
+
+# target to preprocess a source file
+GFG/longestconsecones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/GFG/longestconsecones.cpp.i
+.PHONY : GFG/longestconsecones.cpp.i
+
+GFG/longestconsecones.s: GFG/longestconsecones.cpp.s
+
+.PHONY : GFG/longestconsecones.s
+
+# target to generate assembly for a file
+GFG/longestconsecones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/GFG/longestconsecones.cpp.s
+.PHONY : GFG/longestconsecones.cpp.s
+
 GFG/noofsetbits.obj: GFG/noofsetbits.cpp.obj
 
 .PHONY : GFG/noofsetbits.obj
@@ -289,6 +382,33 @@ GFG/noofsetbits.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg4.dir\build.make CMakeFiles/gfg4.dir/GFG/noofsetbits.cpp.s
 .PHONY : GFG/noofsetbits.cpp.s
 
+GFG/sparsenumber.obj: GFG/sparsenumber.cpp.obj
+
+.PHONY : GFG/sparsenumber.obj
+
+# target to build an object file
+GFG/sparsenumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/GFG/sparsenumber.cpp.obj
+.PHONY : GFG/sparsenumber.cpp.obj
+
+GFG/sparsenumber.i: GFG/sparsenumber.cpp.i
+
+.PHONY : GFG/sparsenumber.i
+
+# target to preprocess a source file
+GFG/sparsenumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/GFG/sparsenumber.cpp.i
+.PHONY : GFG/sparsenumber.cpp.i
+
+GFG/sparsenumber.s: GFG/sparsenumber.cpp.s
+
+.PHONY : GFG/sparsenumber.s
+
+# target to generate assembly for a file
+GFG/sparsenumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/GFG/sparsenumber.cpp.s
+.PHONY : GFG/sparsenumber.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -301,6 +421,12 @@ help:
 	@echo ... gfg2
 	@echo ... gfg3
 	@echo ... gfg4
+	@echo ... gfg5
+	@echo ... gfg6
+	@echo ... gfg7
+	@echo ... GFG/bitdifference.obj
+	@echo ... GFG/bitdifference.i
+	@echo ... GFG/bitdifference.s
 	@echo ... GFG/findfirstset.obj
 	@echo ... GFG/findfirstset.i
 	@echo ... GFG/findfirstset.s
@@ -310,9 +436,15 @@ help:
 	@echo ... GFG/kthbitsetcheck.obj
 	@echo ... GFG/kthbitsetcheck.i
 	@echo ... GFG/kthbitsetcheck.s
+	@echo ... GFG/longestconsecones.obj
+	@echo ... GFG/longestconsecones.i
+	@echo ... GFG/longestconsecones.s
 	@echo ... GFG/noofsetbits.obj
 	@echo ... GFG/noofsetbits.i
 	@echo ... GFG/noofsetbits.s
+	@echo ... GFG/sparsenumber.obj
+	@echo ... GFG/sparsenumber.i
+	@echo ... GFG/sparsenumber.s
 .PHONY : help
 
 

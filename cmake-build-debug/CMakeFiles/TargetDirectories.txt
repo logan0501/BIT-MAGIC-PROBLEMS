@@ -1,6 +1,9 @@
 F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/CMakeFiles/gfg1.dir
-F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/CMakeFiles/gfg2.dir
 F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/CMakeFiles/gfg3.dir
 F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/CMakeFiles/gfg4.dir
 F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/CMakeFiles/gfg5.dir
+F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/CMakeFiles/gfg6.dir
+F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/CMakeFiles/gfg7.dir
+F:/dsa/CLION/BIT MAGIC PROBLEMS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -76,6 +76,9 @@ all: CMakeFiles/gfg1.dir/all
 all: CMakeFiles/gfg2.dir/all
 all: CMakeFiles/gfg3.dir/all
 all: CMakeFiles/gfg4.dir/all
+all: CMakeFiles/gfg5.dir/all
+all: CMakeFiles/gfg6.dir/all
+all: CMakeFiles/gfg7.dir/all
 
 .PHONY : all
 
@@ -89,6 +92,9 @@ clean: CMakeFiles/gfg1.dir/clean
 clean: CMakeFiles/gfg2.dir/clean
 clean: CMakeFiles/gfg3.dir/clean
 clean: CMakeFiles/gfg4.dir/clean
+clean: CMakeFiles/gfg5.dir/clean
+clean: CMakeFiles/gfg6.dir/clean
+clean: CMakeFiles/gfg7.dir/clean
 
 .PHONY : clean
 
@@ -199,6 +205,87 @@ gfg4: CMakeFiles/gfg4.dir/rule
 CMakeFiles/gfg4.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg4.dir\build.make CMakeFiles/gfg4.dir/clean
 .PHONY : CMakeFiles/gfg4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/gfg5.dir
+
+# All Build rule for target.
+CMakeFiles/gfg5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg5.dir\build.make CMakeFiles/gfg5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg5.dir\build.make CMakeFiles/gfg5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\BIT MAGIC PROBLEMS\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target gfg5"
+.PHONY : CMakeFiles/gfg5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gfg5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\dsa\CLION\BIT MAGIC PROBLEMS\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/gfg5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\dsa\CLION\BIT MAGIC PROBLEMS\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/gfg5.dir/rule
+
+# Convenience name for target.
+gfg5: CMakeFiles/gfg5.dir/rule
+
+.PHONY : gfg5
+
+# clean rule for target.
+CMakeFiles/gfg5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg5.dir\build.make CMakeFiles/gfg5.dir/clean
+.PHONY : CMakeFiles/gfg5.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/gfg6.dir
+
+# All Build rule for target.
+CMakeFiles/gfg6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\BIT MAGIC PROBLEMS\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target gfg6"
+.PHONY : CMakeFiles/gfg6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gfg6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\dsa\CLION\BIT MAGIC PROBLEMS\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/gfg6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\dsa\CLION\BIT MAGIC PROBLEMS\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/gfg6.dir/rule
+
+# Convenience name for target.
+gfg6: CMakeFiles/gfg6.dir/rule
+
+.PHONY : gfg6
+
+# clean rule for target.
+CMakeFiles/gfg6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/clean
+.PHONY : CMakeFiles/gfg6.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/gfg7.dir
+
+# All Build rule for target.
+CMakeFiles/gfg7.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\BIT MAGIC PROBLEMS\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target gfg7"
+.PHONY : CMakeFiles/gfg7.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gfg7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\dsa\CLION\BIT MAGIC PROBLEMS\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/gfg7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\dsa\CLION\BIT MAGIC PROBLEMS\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/gfg7.dir/rule
+
+# Convenience name for target.
+gfg7: CMakeFiles/gfg7.dir/rule
+
+.PHONY : gfg7
+
+# clean rule for target.
+CMakeFiles/gfg7.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/clean
+.PHONY : CMakeFiles/gfg7.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
